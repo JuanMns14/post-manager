@@ -23,7 +23,7 @@ Inicia el servidor
 
 - `develop`
 
-  Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+  Inicia tu aplicación Strapi con autoReload habilitado. [Aprende más](https://docs.strapi.io/dev-docs/cli#strapi-develop)
 
   ```bash
   npm run develop
@@ -33,7 +33,7 @@ Inicia el servidor
 
 - `start`
 
-  Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+  Inicia tu aplicación Strapi con autoReload deshabilitado. [Aprende más](https://docs.strapi.io/dev-docs/cli#strapi-start)
 
   ```bash
   npm run start
@@ -43,7 +43,7 @@ Inicia el servidor
 
 - `build`
 
-  Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
+  Construye tu panel de administración. [Aprende más](https://docs.strapi.io/dev-docs/cli#strapi-build)
 
   ```bash
   npm run build
