@@ -1,36 +1,55 @@
-# 🚀 Getting started with Strapi
+# Post Manager
+## Instalacion
+Verifica la guía oficial de instalación de Strapi para conocer los requisitos antes de comenzar. 
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
-
-### `develop`
-
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
-
+Clona el repositorio
+```bash
+git clone https://github.com/JuanMns14/post-manager.git
 ```
-npm run develop
-# or
-yarn develop
+Cambia al directorio del repositorio
+```bash
+cd post-manager
 ```
-
-### `start`
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
-
+Instala todas las dependencias usando `npm`
+```bash
+npm install
 ```
-npm run start
-# or
-yarn start
+Copia el archivo de entorno de ejemplo y realiza los cambios de configuración necesarios en el archivo `.env`
+```bash
+cp .env.example .env
 ```
 
-### `build`
+Inicia el servidor
 
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
+- `develop`
 
-```
-npm run build
-# or
-yarn build
-```
+  Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+
+  ```bash
+  npm run develop
+  # or
+  yarn develop
+  ```
+
+- `start`
+
+  Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+
+  ```bash
+  npm run start
+  # or
+  yarn start
+  ```
+
+- `build`
+
+  Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
+
+  ```bash
+  npm run build
+  # or
+  yarn build
+  ```
 
 #  Prueba de Programación para Desarrollador - Strapi
 ## 10. Explica los pasos para configurar un nuevo proyecto en Strapi.
